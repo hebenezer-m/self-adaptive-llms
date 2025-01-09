@@ -9,7 +9,7 @@
 Self-adaptive large language models (LLMs) aim to solve the challenges posed by traditional fine-tuning methods, which are often computationally intensive and static in their ability to handle diverse tasks.  
 
 We are excited to introduce Transformer², a novel self-adaptation framework that adapts LLMs for unseen tasks in real-time by selectively adjusting only the singular components of their weight matrices. 
-During inference, Transformer² employs a two-pass mechanism: first, a dispatch system identifies the task properties, and then task-specific ``expert'' vectors, trained using reinforcement learning, are dynamically mixed to obtain targeted behavior for the incoming prompt. 
+During inference, Transformer² employs a two-pass mechanism: first, a dispatch system identifies the task properties, and then task-specific "expert" vectors, trained using reinforcement learning, are dynamically mixed to obtain targeted behavior for the incoming prompt. 
 <h1 align="center">
   <a>
     <img width="500" src="assets/cover.gif"></a><br>
