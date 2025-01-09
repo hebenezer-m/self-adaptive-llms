@@ -1,5 +1,5 @@
 <h1 align="center">
-<h1>Transformer<sup>2</sup>: Self-adaptive LLMs🦎 </h1>
+<h1>Transformer<sup>2</sup>: Self-adaptive LLMs 🐙 </h1>
 </h1>
 <p align="center">
   📄 <a href="xxx">[Paper]</a> |
