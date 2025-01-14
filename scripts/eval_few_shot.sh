@@ -11,7 +11,7 @@ PER_LAYER=true
 NORM_COEFFS=false
 
 # Start evaluation!
-python svd_reinforce_hydra.py \
+CUDA_VISIBLE_DEVICES=0,1 python svd_reinforce_hydra.py \
     base_model@_global_=llama3i8b \
     optimization@_global_=cem \
     policy@_global_=wcomb \

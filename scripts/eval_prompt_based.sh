@@ -14,7 +14,7 @@ MATH_EXPERT_PATH="your_path_to_math_expert"
 REASONING_EXPERT_PATH="your_path_to_reasoning_expert"
 
 # Start evaluation!
-python svd_reinforce_hydra.py \
+CUDA_VISIBLE_DEVICES=0,1 python svd_reinforce_hydra.py \
     base_model@_global_=llama3i8b \
     task@_global_=$TASK \
     mode@_global_=eval \
