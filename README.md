@@ -2,8 +2,8 @@
 <h1>Transformer<sup>2</sup>: Self-adaptive LLMs 🐙 </h1>
 </h1>
 <p align="center">
-  📄 <a href="xxx">[Paper]</a> |
-  🤗 <a href="https://huggingface.co/SakanaAI">[Hugging Face]</a>
+  📚 <a href="https://arxiv.org/abs/2501.06252">[Paper]</a> |
+  📄 <a href="https://sakana.ai/transformer-squared">[Blog]</a>
 </p>
 
 Self-adaptive large language models (LLMs) aim to solve the challenges posed by traditional fine-tuning methods, which are often computationally intensive and static in their ability to handle diverse tasks.  
