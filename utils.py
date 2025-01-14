@@ -256,7 +256,8 @@ def eval_model_experts_prompt_based(
 
         # Load and apply expert model parameters if available
         if expert_model_path:
-            expert_params = torch.load(expert_model_path)
+            policy.load_state_dict(torch.load(expert_model_path))
+            expert_params = policy.get_learnable_params()
             updated_params = forward(
                 policy=policy,
                 model=model,

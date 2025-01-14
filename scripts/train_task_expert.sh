@@ -1,7 +1,7 @@
 # !/bin/bash
 
 # Task Selection
-TASK="ai2_arc" # Available options: mbpp, math, ai2_arc
+TASK="mbpp2" # Available options: mbpp2, gsm8k, ai2_arc, cls
 
 # Training Setting
 NUM_ITERS=200

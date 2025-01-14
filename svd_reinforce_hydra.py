@@ -173,7 +173,7 @@ def main(cfg):
         gpu=gpu,
     )
 
-    if resuming_from_ckpt:
+    if resuming_from_ckpt and os.path.exists(load_ckpt):
         print(f"Starting from checkpoint at: {load_ckpt}")
         # load the lora weight
         if use_lora:

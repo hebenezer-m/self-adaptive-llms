@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Task Selection
-TASK="ai2_arc" # Available options: mbpp, math, ai2_arc
+TASK="mbpp2" # Available options: mbpp2, math, ai2_arc
 
 # First Stage Inference: Classification Expert
 # Set to 'None' if not using cls expert
