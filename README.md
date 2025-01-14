@@ -65,5 +65,13 @@ bash scripts/eval_few_shot.sh
 ## Citation
 If you find **Transformer^2** useful for your research, please cite using this BibTeX:
 ```
-arxiv bib xxx
+@misc{sun2025texttransformer2selfadaptivellms,
+      title={$\text{Transformer}^2$: Self-adaptive LLMs}, 
+      author={Qi Sun and Edoardo Cetin and Yujin Tang},
+      year={2025},
+      eprint={2501.06252},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2501.06252}, 
+}
 ```
