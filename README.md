@@ -52,7 +52,7 @@ bash scripts/train_task_expert.sh
 ### Evaluation
 
 #### Prompt-based evaluation
-Classification expert can be loaded by specifying the CLS_EXPERT_PATH in the script.
+Classification experts can be loaded by specifying the CLS_EXPERT_PATH in the script.
 ```bash
 bash scripts/eval_prompt_based.sh
 ```
