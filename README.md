@@ -39,7 +39,7 @@ pip install -e .
 ```
 
 ## Usage
-We provide example scripts for both training and evalution.  
+We provide example scripts for both training and evaluation.  
 
 Please change the argument in the provided script to choose among models and tasks
 
